@@ -1,0 +1,23 @@
+This is version 0.9 of Serialysis, a library to parse serialized Java objects.
+See http://weblogs.java.net/blog/emcmanus/archive/2007/06/disassembling_s.html
+for an introduction.
+
+These files are structured as a NetBeans project, but you do not need
+NetBeans to build.  You just need a recent version of Apache Ant (at
+least 1.6).  "ant jar" will rebuild serialysis.jar and "ant javadoc"
+will rebuild the Javadoc output.  You will probably need to change or
+remove the -J options in the javadoc.additionalparam property in
+nbproject/project.properties, which are there to allow Javadoc to
+work behind a firewall.
+
+The license is a GNU license modified in a similar way to the GNU
+Classpath project and the OpenJDK project.  If you use the code
+unmodified, you shouldn't need to worry about the license.  If you
+modify it and distribute your modifications, then you must make the
+source of those modifications available.  (One way to do this is to
+send the modifications to me, a@b.c where a=eamonn, b=mcmanus, c=net;
+then I can incorporate the modifications into the main version.)  The
+license does NOT require you to distribute the source of your own
+programs just because they use Serialysis.
+
+If there's demand, I'll make this a project on java.net.

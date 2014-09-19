@@ -1,0 +1,7 @@
+Test coverage could be improved, for example testing that fields inherited
+from superclasses work correctly in all cases.
+
+It would be useful to be able to modify the various SEntity subclasses and
+reconstruct a serial stream from the modified objects.  This would allow you
+to construct a new version of an object with changed contents.  But it is a
+decidedly non-trivial task.
